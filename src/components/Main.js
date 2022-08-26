@@ -22,7 +22,7 @@ function Main(){
                 <div id="Email" onClick={sendEmail}><img src={mail} alt=""/> Email</div>
 
                 <h2>About</h2>
-                <p>I am a frontend developer with a particular interest in creating 3D GUI designs.
+                <p>I am a frontend developer with a particular interest in creating 3D / animated GUI designs.
                     I try to keep up with security and best practices, and am always looking for new things to learn.
                     I also enjoy developing automation systems in python.
                 </p>
