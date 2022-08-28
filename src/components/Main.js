@@ -5,10 +5,6 @@ import logo_linkedin from "./images/linkedin.svg"
 import logo_github from "./images/github.svg"
 import mail from "./images/mail.svg"
 
-function sendEmail(){
-    console.log("Send Email");
-}
-
 function Main(){
     return(
         <div className="Main">
@@ -19,7 +15,7 @@ function Main(){
                 <h1>Daniel Cross</h1>
                  <h4>Frontend Developer</h4>
                 <a href="http://www.google.com" target="blank">website</a>
-                <div id="Email" onClick={sendEmail}><img src={mail} alt=""/> Email</div>
+                <a href="mailto:crodan91@gmail.com" id="Email"><img src={mail} alt=""/> Email</a>
 
                 <h2>About</h2>
                 <p>I am a frontend developer with a particular interest in creating 3D / animated GUI designs.

@@ -10,10 +10,10 @@ body{
 
 
 .Main{
-    width: 300px;
-    height: 90vh;
-    min-height: 600px;
     /* border: 1px solid white; */
+    width: 300px;
+    height: 98vh;
+    min-height: 600px;
     margin: 1vh auto;
     display: flex;
     flex-direction: column;
@@ -54,9 +54,9 @@ body{
 
 #Email{
     background-color: white;
-    color: #1A1B21;
+    color: #1A1B21 !important;
     border-radius: 6px;
-    font-size: 16px;
+    font-size: 16px !important;
     text-align: center;
     padding: 5px;
     margin-top: 15px;
@@ -129,4 +129,18 @@ body{
 
 #Bottom img{
     width: 100%;
+}
+
+
+
+@media (max-width: 639px) {
+    
+}
+
+@media (max-width: 1023px) {
+    
+}
+
+@media (min-width: 1024px) {
+    
 }
